@@ -1,4 +1,4 @@
-# React Vite Template
+# Vite Shadcn Template
 
 This project has been bootstrapped with:
 
@@ -8,7 +8,7 @@ This project has been bootstrapped with:
 - Redux Toolkit
 - React Router
 - Tailwind
-- React-DnD-kit
+- Shadcn
 - Husky
 - Stylelint
 - Babel
