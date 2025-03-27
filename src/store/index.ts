@@ -1,5 +1,6 @@
-import { combineReducers, configureStore } from '@reduxjs/toolkit';
+import { Middleware, combineReducers, configureStore } from '@reduxjs/toolkit';
 
+import notify from './middleware/notify';
 import { setupListeners } from '@reduxjs/toolkit/query';
 
 const dummyReducer = () => ({});
@@ -14,7 +15,7 @@ export const rootReducer = combineReducers({
 /**
  * Add any custom middleware here. Remove the `any` type and add your own middleware types.
  */
-const middleware = [] as any;
+const middleware = [notify] as Middleware[];
 
 /**
  * The root state of the Redux store.
