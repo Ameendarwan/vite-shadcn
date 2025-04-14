@@ -115,8 +115,7 @@
 
   /* Global scroll styles */
   *::-webkit-scrollbar {
-    width: 7px;
-    height: 7px;
+    scrollbar-width: none;
   }
 
   *::-webkit-scrollbar-track {
@@ -127,10 +126,4 @@
     background-color: #3b3c4f;
     border-radius: 9999px;
   }
-}
-
-/* To hide mapbox logo */
-.mapboxgl-ctrl-bottom-right,
-.mapboxgl-ctrl-bottom-left {
-  display: none !important;
 }
